@@ -5,23 +5,24 @@ const Button = (props) => {
 
     let classList = ''
 
-    let types = ['primary', 'danger', 'success', 'warning']
+    let types = ['primary', 'danger', 'success', 'warning', 'default']
 
     if(types.includes(props.type)){
-            classList+= `button-${props.type}`
-        
+        classList+= ` button-${props.type}`
+    }
+    if(props.hover) {
+        classList += ` button-${props.type}-hover`
     }
     if(props.outline) {
-        classList+= `button-${props.type}-outline`
+        classList += ` button-${props.type}-outline`
     }
-
-    console.log(props.large)
+    if(props.faded) {
+        classList += ` button-${props.type}-faded`
+    }
     if(props.large){
         classList += ` button-large`
     }
-    if(props.outline){
-        classList += ` button-outline`
-    }
+  
 
    return (
    <button onClick={props.onClick} className={classList}>
