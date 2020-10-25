@@ -1,12 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-
 import Button from './Button';
-
-
-// function helloWorld() {
-//     alert('Button Component Executed props.onClick')
-// }
 
 storiesOf('Button', module)
     
@@ -160,7 +154,7 @@ storiesOf('Button', module)
         outline
         label='Large Outline Default'/>)
 
-
+    
 
 
     
