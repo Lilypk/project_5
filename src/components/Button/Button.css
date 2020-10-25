@@ -21,8 +21,8 @@ button {
     border: 2px solid #33A0FF;
 }
 .button-primary-faded {
-    opacity: 0.2;
-    color: white;
+    color: #33A0FF;
+    background: linear-gradient(#EAF5FF, #EAF5FF)
 }
 
 .button-danger {
@@ -41,8 +41,8 @@ button {
     border: 2px solid #FF4858;
 }
 .button-danger-faded {
-    opacity: 0.2;
-    color: white;
+    color: #FF4858;
+    background: linear-gradient(#FFECEE, #FFECEE)
 }
 
 .button-success {
@@ -61,8 +61,8 @@ button {
     border: 2px solid #0AD00A;
 }
 .button-success-faded {
-    opacity: 0.2;
-    color: white;
+    color: #0AD00A;
+    background: linear-gradient(#E0F3E0, #E0F3E0)
 }
 
 .button-warning {
@@ -81,8 +81,8 @@ button {
     border: 2px solid #FFC600;
 }
 .button-warning-faded {
-    opacity: 0.2;
-    color: white;
+    color: #FFC600;
+    background: linear-gradient(#F9F3E0, #F9F3E0)
 }
 
 .button-default {
@@ -101,8 +101,8 @@ button {
     border: 2px solid #22262A; 
 }
 .button-default-faded {
-    opacity: 0.2;
-    color: white;
+   color: #22262A;
+   background: linear-gradient(#F6F7F8, #F6F7F8)
 }
 
 
