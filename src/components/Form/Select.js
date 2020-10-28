@@ -3,14 +3,13 @@ import './Select.css'
 
 const Select = (props) => {
 
-return (<select type="select"
+return (<select type="select" 
  className={props.size} />
-
+ 
 )
 
 
 }
 
-
-
+   
 export default Select

@@ -1,9 +1,15 @@
 .small {
-    
+    padding: 5px;
+    width: 150px;
 }
 .medium {
-    padding: 10px;
+    padding: 8px;
+    width: 250px;
 }
 .large {
-    padding: 30px;
+    padding: 15px;
+    width: 250px;
+}
+.faded {
+    background-color: #FAFAFB;
 }

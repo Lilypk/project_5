@@ -1,6 +1,8 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import Email from "./Email";
+import Select from './Select';
+
 
 storiesOf("Form", module)
  
@@ -14,6 +16,20 @@ storiesOf("Form", module)
   <Email size='large' />
 ))
 .add("Dropdown Large", () => (
-  <select type="select" label="select" />
+  <Select size='large' />
 ))
-
+.add('Dropdown Medium', () => (
+  <Select size='medium' />
+))
+.add('Dropdown Small', () => (
+  <Select size='small' />
+))
+.add("Dropdown Large Faded", () => (
+  <Select size='large' />
+))
+.add('Dropdown Medium Faded', () => (
+  <Select size='medium' />
+))
+.add('Dropdown Small Faded', () => (
+  <Select size='small' />
+))
