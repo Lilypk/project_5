@@ -153,7 +153,19 @@ storiesOf('Button', module)
         large
         outline
         label='Large Outline Default'/>)
+    .add('Add to Cart', () => <Button
+        type='cart'
+        label='Add to Cart'
+    />)
+    .add('Add to Favorites', () => <Button
 
+    />)
+    .add('Heart', () => <Button
+
+    />)
+    .add('Cart', () => <Button 
+
+    />)
     
 
 

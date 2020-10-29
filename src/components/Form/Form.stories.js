@@ -4,6 +4,7 @@ import Email from "./Email";
 import Select from './Select';
 
 
+
 storiesOf("Form", module)
  
 .add("Email Input", () => (
@@ -16,20 +17,20 @@ storiesOf("Form", module)
   <Email size='large' />
 ))
 .add("Dropdown Large", () => (
-  <Select size='large' />
+  <Select large />
 ))
 .add('Dropdown Medium', () => (
-  <Select size='medium' />
+  <Select medium />
 ))
 .add('Dropdown Small', () => (
-  <Select size='small' />
+  <Select small />
 ))
 .add("Dropdown Large Faded", () => (
-  <Select size='large' />
+  <Select large faded />
 ))
 .add('Dropdown Medium Faded', () => (
-  <Select size='medium' />
+  <Select medium faded />
 ))
 .add('Dropdown Small Faded', () => (
-  <Select size='small' />
+  <Select small faded />
 ))
