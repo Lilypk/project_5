@@ -153,7 +153,7 @@ storiesOf('Button', module)
         large
         outline
         label='Large Outline Default'/>)
-    .add('Add to Cart', () => <Button
+    .add('Add to Cart', () => <img src='./add_to_cart.svg'
         type='cart'
         label='Add to Cart'
     />)
