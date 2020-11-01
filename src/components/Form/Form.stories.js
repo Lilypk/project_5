@@ -2,13 +2,13 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import Email from "./Email";
 import Select from './Select';
-
+import Number from './Number';
 
 
 storiesOf("Form", module)
  
 .add("Email Input", () => (
-  <Email size='small' placeholder='Email' />
+  <Email size='small' />
 ))
 .add("Email Input Medium", () => (
   <Email size='medium' />
@@ -34,3 +34,7 @@ storiesOf("Form", module)
 .add('Dropdown Small Faded', () => (
   <Select small faded />
 ))
+.add('Number input', () => (
+  <Number small faded />
+))
+

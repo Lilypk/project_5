@@ -1,6 +1,27 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Button from './Button';
+import addToCart from './add_to_cart.svg'
+import addToFavorites from './add_to_fav.svg'
+import heart from './heart.svg'
+import cart from './cart.svg'
+
+const addToCartImage = {
+    src: addToCart,
+    alt: 'add to cart'
+}
+const addToFavoritesImage = {
+    src: addToFavorites,
+    alt: 'add to favorites'
+}
+const heartImage = {
+    src: heart,
+    alt: 'heart'
+}
+const cartImage = {
+    src: cart,
+    alt: 'cart'
+}
 
 storiesOf('Button', module)
     
@@ -153,18 +174,21 @@ storiesOf('Button', module)
         large
         outline
         label='Large Outline Default'/>)
-    .add('Add to Cart', () => <img src='./add_to_cart.svg'
+    .add('Add to Cart', () => <img src={addToCartImage.src}
         type='cart'
         label='Add to Cart'
     />)
-    .add('Add to Favorites', () => <Button
-
+    .add('Add to Favorites', () => <img src={addToFavoritesImage.src}
+        type=''
+        label='Add to Favorites'
     />)
-    .add('Heart', () => <Button
-
+    .add('Heart', () => <img src={heartImage.src}
+        type=''
+        label='Heart'
     />)
-    .add('Cart', () => <Button 
-
+    .add('Cart', () => <img src={cartImage.src}
+        type=''
+        label='Cart'
     />)
     
 

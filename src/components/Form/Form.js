@@ -5,7 +5,7 @@ const Form = (props) => {
 
     let classList = ''
 
-    let types = ['email', 'select']
+    let types = ['email', 'select', 'number']
 
     if(types.includes(props.type)){
         classList+= ` form-${props.type}`
