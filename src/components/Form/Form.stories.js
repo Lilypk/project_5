@@ -35,6 +35,6 @@ storiesOf("Form", module)
   <Select small faded />
 ))
 .add('Number input', () => (
-  <Number small faded />
+  <NumberInput />
 ))
 

@@ -29,7 +29,7 @@ const Number = (props) => {
         classList+= ' large'
     }
     
-    return (<number type="number" 
+    return (<number type="NumberInput" 
      className= {classList} />
     
      
